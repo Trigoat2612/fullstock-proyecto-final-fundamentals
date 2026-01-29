@@ -1,0 +1,8 @@
+.categories {
+  padding: var(--space-16) 0;
+}
+
+.categories__content {
+  display: flex;
+  gap: var(--space-8);
+}

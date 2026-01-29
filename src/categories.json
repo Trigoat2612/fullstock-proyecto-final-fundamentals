@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "name": "Polos",
+        "description": "Polos exclusivos con diseños que todo desarrollador querrá lucir. Ideales para llevar el código a donde vayas.",
+        "imagePath": "/images/categoria-polos.png",
+        "imageDescription": "Una persona modelando un polo azul",
+        "products": [
+            {
+                "id": 1,
+                "name": "Polo 'Hello World'",
+                "description": "Un clásico para cualquier desarrollador. Este polo presenta el icónico 'Hello World' en un diseño moderno y atractivo.",
+                "price": 20,
+                "imagePath": "/images/producto-polo-hello-world.png",
+                "imageDescription": "Polo blanco con el texto 'Hello World' en código"
+            },
+            {
+                "id": 2,
+                "name": "Polo 'Code is Poetry'",
+                "description": "Para los que ven la programación como un arte. Este polo celebra la belleza del código con un diseño elegante.",
+                "price": 21.99,
+                "imagePath": "/images/producto-polo-code-is-poetry.png",
+                "imageDescription": "Polo blanco con el texto 'Hello World' en código"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Tazas",
+        "description": "Tazas que combinan perfectamente con tu café matutino y tu pasión por la programación. ¡Empieza el día con estilo!",
+        "imagePath": "/images/categoria-tazas.png",
+        "products": []
+    },
+    {
+        "id": 3,
+        "name": "Stickers",
+        "description": "Personaliza tu espacio de trabajo con nuestros stickers únicos y muestra tu amor por el desarrollo web.",
+        "imagePath": "/images/categoria-stickers.png",
+        "products": []
+    }
+]

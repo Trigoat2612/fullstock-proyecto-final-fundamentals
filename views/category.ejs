@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header>Fullstock</header>
+        <main>
+            <h2><%=category.name%></h2>
+            <p><%=category.description%></p>
+            <hr />
+            <form action="" method="">
+                <label for="">Min</label>
+                <input type="number" name="min" id="min" />
+                <label for="">Max</label>
+                <input type="number" name="max" id="max" />
+                <button type="submit">Filtrar</button>
+            </form>
+            <section>
+
+                <% category.products.forEach(product => { %>
+                    <div class="product">
+                        <a href="/products/<%=product.id%>">
+                            <img src="<%=product.imagePath%>" alt="<%=product.imageDescription%>" />
+                            <h3><%=product.name%></h3>
+                            <p><%=product.description%></p>
+                            <p>$<%=product.price%></p>
+                        </a>
+                    </div>
+                <% }) %>
+            </section>
+        </main>
+        
+    </body>
+</html>

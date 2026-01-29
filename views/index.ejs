@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="top-nav">
+            <div class="container">
+                <div class="action">
+                    <a href="#">Iniciar sesion</a>
+                    <a href="#">Crear una cuenta</a>
+                </div>
+            </div>
+        </div>
+        <div class="main-nav">
+            <div class="container">
+                <img src="/images/logo.svg" alt="Logo de Fullstock">
+                <nav>
+                    <div class="navitem">
+                        <a href="#">Polos</a>
+                    </div>
+                    <div class="navitem">
+                        <a href="#">Tazas</a>
+                    </div>
+                    <div class="navitem">
+                        <a href="#">Stickers</a>
+                    </div>
+                </nav>
+                
+                
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div>
+                <h2>Nuevos productos disponibles</h2>
+                <p>Un pequeño lote de increíbles productos acaba de llegar.
+                    Agrega tus favoritos al carrito antes que se agoten.
+                </p>
+                <button>Comprar</button>
+            </div>
+        </section>
+        <!-- BEM: Bloque, Elementos, Modificador -->
+        <section class="categories container">
+            <div class="categories__intro">
+            <h2 class="categories__title">Compra por categoría</h2>
+            <p class="categories__description">
+                Explora nuestra selección de productos especialmente diseñados para
+                desarrolladores web. Encuentra lo que buscas navegando por nuestras
+                categorías de polos, tazas, stickers y más.
+            </p>
+            </div>
+            <div class="categories__content">
+            <% categories.forEach((category) => { %>
+            <div class="category">
+              <a href="/categories/<%= category.id %>">
+                <img
+                  class="category__image"
+                  src="<%= category.imagePath %>"
+                  alt="Una persona modelando un polo azul"
+                />
+                <h3 class="category__title"><%= category.name %></h3>
+                <p class="category__description">
+                  <%= category.description %>
+                  lucir. Ideales para llevar el código a donde vayas.
+                </p>
+                </a>
+                </div>
+            <% }) %>
+            
+            
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Fullstock</p>
+    </footer>
+</body>
+</html>
