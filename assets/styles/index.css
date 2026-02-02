@@ -42,6 +42,7 @@
 @import url("6-components/radio_item.css");
 @import url("6-components/select.css");
 @import url("6-components/textarea.css");
+@import url("6-components/footer.css");
 
 /* 7. Utilities */
 @import url("7-utilities/utilities.css");

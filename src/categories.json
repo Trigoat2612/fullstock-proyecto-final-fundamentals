@@ -8,19 +8,75 @@
         "products": [
             {
                 "id": 1,
-                "name": "Polo 'Hello World'",
-                "description": "Un clásico para cualquier desarrollador. Este polo presenta el icónico 'Hello World' en un diseño moderno y atractivo.",
+                "name": "Polo React",
+                "description": "Viste tu pasión por React con estilo y comodidad en cada línea de código.",
                 "price": 20,
-                "imagePath": "/images/producto-polo-hello-world.png",
-                "imageDescription": "Polo blanco con el texto 'Hello World' en código"
+                "imagePath": "/images/camiseta1.png",
+                "imageDescription": "Polo con el logo de React"
             },
             {
                 "id": 2,
-                "name": "Polo 'Code is Poetry'",
-                "description": "Para los que ven la programación como un arte. Este polo celebra la belleza del código con un diseño elegante.",
-                "price": 21.99,
-                "imagePath": "/images/producto-polo-code-is-poetry.png",
-                "imageDescription": "Polo blanco con el texto 'Hello World' en código"
+                "name": "Polo Javascript",
+                "description": "Deja que tu amor por JavaScript hable a través de cada hilo de este polo.",
+                "price": 20,
+                "imagePath": "/images/camiseta2.png",
+                "imageDescription": "Polo con el logo de JavaScript"
+            },
+            {
+                "id": 3,
+                "name": "Polo Node.js",
+                "description": "Conéctate al estilo con este polo de Node.js, tan robusto como tu código.",
+                "price": 20,
+                "imagePath": "/images/camiseta3.png",
+                "imageDescription": "Polo con el logo de Node.js"
+            },
+            {
+                "id": 4,
+                "name": "Polo TypeScript",
+                "description": "Tipa tu estilo con precisión: lleva tu pasión por TypeScript en cada hilo.",
+                "price": 20,
+                "imagePath": "/images/camiseta4.png",
+                "imageDescription": "Polo con el logo de TypeScript"
+            },
+            {
+                "id": 5,
+                "name": "Polo Backend Developer",
+                "description": "Domina el servidor con estilo: viste con orgullo tu título de Backend Developer.",
+                "price": 25,
+                "imagePath": "/images/camiseta5.png",
+                "imageDescription": "Polo con el logo de Backend Developer"
+            },
+            {
+                "id": 6,
+                "name": "Polo Frontend Developer",
+                "description": "Construye experiencias con estilo: luce con orgullo tu polo de Frontend Developer.",
+                "price": 25,
+                "imagePath": "/images/camiseta6.png",
+                "imageDescription": "Polo con el logo de Frontend Developer"
+            },
+            {
+                "id": 7,
+                "name": "Polo Full-Stack Developer",
+                "description": "Domina ambos mundos con estilo: lleva tu título de FullStack Developer en cada línea de tu look.",
+                "price": 25,
+                "imagePath": "/images/camiseta7.png",
+                "imageDescription": "Polo con el logo de Full-Stack Developer"
+            },
+            {
+                "id": 8,
+                "name": "Polo It’s A Feature",
+                "description": "Cuando el bug se convierte en arte: lleva con orgullo tu polo 'It's a feature'. ",
+                "price": 15,
+                "imagePath": "/images/camiseta8.png",
+                "imageDescription": "Polo de It's A Feature"
+            },
+            {
+                "id": 9,
+                "name": "Polo It Works On My Machine",
+                "description": "El clásico del desarrollador: presume tu confianza con 'It works on my machine'.",
+                "price": 15,
+                "imagePath": "/images/camiseta9.png",
+                "imageDescription": "Polo de It Works On My Machine"
             }
         ]
     },
@@ -29,13 +85,129 @@
         "name": "Tazas",
         "description": "Tazas que combinan perfectamente con tu café matutino y tu pasión por la programación. ¡Empieza el día con estilo!",
         "imagePath": "/images/categoria-tazas.png",
-        "products": []
+        "imageDescription": "Taza con la descripción de web developer",
+        "products": [
+            {
+                "id": 10,
+                "name": "Taza JavaScript",
+                "description": "Taza con el logo de JavaScript.",
+                "price": 20,
+                "imagePath": "/images/taza1.png",
+                "imageDescription": "Taza con el logo de JavaScript"
+            },
+            {
+                "id": 11,
+                "name": "Taza React",
+                "description": "Taza con el logo de React.",
+                "price": 20,
+                "imagePath": "/images/taza2.png",
+                "imageDescription": "Taza con el logo de React"
+            },
+            {
+                "id": 12,
+                "name": "Taza In case of Fire",
+                "description": "Taza con el logo de In case of Fire.",
+                "price": 20,
+                "imagePath": "/images/taza3.png",
+                "imageDescription": "Taza con el logo de In case of Fire"
+            },
+            {
+                "id": 13,
+                "name": "Taza I love SQL",
+                "description": "Taza con el logo de I love SQL.",
+                "price": 20,
+                "imagePath": "/images/taza4.png",
+                "imageDescription": "Taza con el logo de I love SQL"
+            },
+            {
+                "id": 14,
+                "name": "Taza Linux",
+                "description": "Taza con el logo de Linux.",
+                "price": 20,
+                "imagePath": "/images/taza5.png",
+                "imageDescription": "Taza con el logo de Linux"
+            },
+            {
+                "id": 15,
+                "name": "Taza GitHub",
+                "description": "Taza con el logo de GitHub.",
+                "price": 20,
+                "imagePath": "/images/taza6.png",
+                "imageDescription": "Taza con el logo de GitHub"
+            }
+        ]
     },
     {
         "id": 3,
         "name": "Stickers",
         "description": "Personaliza tu espacio de trabajo con nuestros stickers únicos y muestra tu amor por el desarrollo web.",
         "imagePath": "/images/categoria-stickers.png",
-        "products": []
+        "imageDescription": "Laptop con stickers de desarrollo web",
+        "products": [
+            {
+                "id": 16,
+                "name": "Sticker JavaScript",
+                "description": "Sticker con el logo de JavaScript.",
+                "price": 5,
+                "imagePath": "/images/sticker1.png",
+                "imageDescription": "Sticker con el logo de JavaScript"
+            },
+            {
+                "id": 17,
+                "name": "Sticker React",
+                "description": "Sticker con el logo de React.",
+                "price": 5,
+                "imagePath": "/images/sticker2.png",
+                "imageDescription": "Sticker con el logo de React"
+            },
+            {
+                "id": 18,
+                "name": "Sticker Git",
+                "description": "Sticker con el logo de Git.",
+                "price": 5,
+                "imagePath": "/images/sticker3.png",
+                "imageDescription": "Sticker con el logo de Git"
+            },
+            {
+                "id": 19,
+                "name": "Sticker Docker",
+                "description": "Sticker con el logo de Docker.",
+                "price": 5,
+                "imagePath": "/images/sticker4.png",
+                "imageDescription": "Sticker con el logo de Docker"
+            },
+            {
+                "id": 20,
+                "name": "Sticker Linux",
+                "description": "Sticker con el logo de Linux.",
+                "price": 5,
+                "imagePath": "/images/sticker5.png",
+                "imageDescription": "Sticker con el logo de Linux"
+            },
+            {
+                "id": 21,
+                "name": "Sticker VSCode",
+                "description": "Sticker con el logo de VSCode.",
+                "price": 5,
+                "imagePath": "/images/sticker6.png",
+                "imageDescription": "Sticker con el logo de VSCode"
+            },
+            {
+                "id": 22,
+                "name": "Sticker GitHub",
+                "description": "Sticker con el logo de GitHub.",
+                "price": 5,
+                "imagePath": "/images/sticker7.png",
+                "imageDescription": "Sticker con el logo de GitHub"
+            },
+            {
+                "id": 23,
+                "name": "Sticker HTML5",
+                "description": "Sticker con el logo de HTML5.",
+                "price": 5,
+                "imagePath": "/images/sticker8.png",
+                "imageDescription": "Sticker con el logo de HTML5"
+            }
+        ]
     }
 ]

@@ -1,0 +1,18 @@
+<%- include('partials/header'); %>
+    <main>
+        <section class="product-detail container">
+            <div class="product-detail__image">
+                <img src="<%= product.imagePath %>" alt="<%= product.imageDescription %>">
+            </div>
+            <div class="product-detail__info">
+                <h2 class="product-detail__title"><%= product.name %></h2>
+                <p class="product-detail__description"><%= product.description %></p>
+                <p class="product-detail__price">$<%= product.price %></p>
+                <form action="/cart/add/<%= product.id %>" method="post">
+                    <button class="product-detail__add-to-cart">Agregar al carrito</button>
+                </form>
+                
+            </div>
+        </section>
+    </main>
+<%- include('partials/footer'); %>

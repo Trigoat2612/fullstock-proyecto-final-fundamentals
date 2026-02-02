@@ -1,0 +1,61 @@
+.hero {
+    width: 100%;
+    height: 784px;
+    opacity: 1;
+
+    padding-top: var(--hero-padding);
+    padding-bottom: var(--hero-padding);
+
+    background-image: url("/images/hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero > .container {
+    max-width: 100%;
+    padding-right: var(--container-padding);
+    padding-left: var(--container-padding);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero > .container > .content {
+    width: 768px;
+    height: 272px;
+    max-width: 768px;
+}
+
+.hero > .container > .content > h2 {
+    font-family: var(--font-family-text);
+    font-weight: var(--font-weight-bold);
+    font-style: normal; /* Bold */
+    font-size: var(--display-1-font-size);
+    line-height: var(--display-1-leading);
+    letter-spacing: 0;
+    text-align: center;
+    color: var(--white, #FFFFFF);;
+}
+
+.hero > .container > .content > p {
+    font-family: var(--font-family-text);
+    font-weight: var(--font-weight-normal);
+    font-style: normal; /* Regular */
+    font-size: var(--font-size-5);
+    line-height: var(--leading-7);
+    letter-spacing: 0;
+    text-align: center;
+    color: var(--white, #FFFFFF);;
+}
+.hero > .container > .content > .margin1 {
+    width: 768px;
+    height: 16px;
+}
+
+.hero > .container > .content > .margin2 {
+    width: 768px;
+    height: 32px;
+}

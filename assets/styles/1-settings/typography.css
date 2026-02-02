@@ -9,8 +9,16 @@
   --font-size-5: 20px;
   --font-size-6: 24px;
 
+  --font-size-sm: 14px;
+  --display-1-font-size: 60px;
+
   /* Line Heights */
+  --leading-5: 20px;
   --leading-6: 24px;
+  --leading-7: 28px;
+  --font-line-height-5: 20px;
+  --display-1-leading: 60px;
+  
 
   /* Font Family */
   --family-text: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -22,4 +30,11 @@
     monospace;
   --family-emphasis: "Lora", "Georgia", "Palatino Linotype", "Book Antiqua",
     "Times New Roman", serif;
+  --font-family-sans: var(--family-text);
+  --font-family-text: var(--family-text);
+
+  /** Font Weights */
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
 }

@@ -1,0 +1,65 @@
+.btn {
+    border: 0;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: var(--primary-background, #5B5BD6);
+    color: #fff;
+    border: 1px solid transparent;
+    width: 175px;
+    height: 48px;
+    border: 1px solid var(--base-transparent, #FFFFFF);
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    border-radius: var(--rounded-2);
+    gap: 8px;
+
+    padding-top: var(--space-3);
+    padding-right: var(--space-8);
+    padding-bottom: var(--space-3);
+    padding-left: var(--space-8);
+}
+
+/* variant="secondary" (ejemplo típico) */
+.btn-secondary {
+    background: #f2f2f5;
+    color: var(--secondary-foreground, #60646C);
+    border: 1px solid var(--base-transparent, #FFFFFF);
+    font-family: var(--font-family-text);
+    font-weight: var(--font-weight-medium);
+    font-style: normal; /* Medium */
+    font-size: var(--font-size-3-5);
+    line-height: var(--leading-5);
+    letter-spacing: 0;
+    
+}
+
+/* size="lg" (ejemplo) */
+.btn-lg {
+    height: 40px;
+    padding: 0 16px;
+    border-radius: 12px;
+}
+
+/* hover/active=false */
+.btn--primary:hover,
+.btn--primary:active {
+    background: #111;
+}
+
+.btn--primary:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+/* hover/active=false */
+.btn-secondary:hover,
+.btn-secondary:active {
+    background: #f2f2f5;
+}
+
+.btn--secondary:focus-visible {
+    outline: 2px solid #f2f2f5;
+    outline-offset: 2px;
+}
+

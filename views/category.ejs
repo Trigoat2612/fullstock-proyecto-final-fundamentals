@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-    </head>
-    <body>
-        <header>Fullstock</header>
+<%- include('partials/header'); %>
         <main>
             <h2><%=category.name%></h2>
             <p><%=category.description%></p>
@@ -21,17 +13,17 @@
             <section>
 
                 <% category.products.forEach(product => { %>
-                    <div class="product">
-                        <a href="/products/<%=product.id%>">
-                            <img src="<%=product.imagePath%>" alt="<%=product.imageDescription%>" />
-                            <h3><%=product.name%></h3>
-                            <p><%=product.description%></p>
-                            <p>$<%=product.price%></p>
-                        </a>
-                    </div>
+                    <a href="/products/<%=product.id%>">
+                        <div class="product">
+                            
+                                <img src="<%=product.imagePath%>" alt="<%=product.imageDescription%>" />
+                                <h3 class="product__title"><%=product.name%></h3>
+                                <p class="product__description"><%=product.description%></p>
+                                <p class="product__price">$<%=product.price%></p>
+
+                        </div>
+                    </a>
                 <% }) %>
             </section>
         </main>
-        
-    </body>
-</html>
+<%- include('partials/footer'); %>
