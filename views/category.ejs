@@ -1,29 +1,51 @@
 <%- include('partials/header'); %>
         <main>
-            <h2><%=category.name%></h2>
-            <p><%=category.description%></p>
-            <hr />
-            <form action="" method="">
-                <label for="">Min</label>
-                <input type="number" name="min" id="min" />
-                <label for="">Max</label>
-                <input type="number" name="max" id="max" />
-                <button type="submit">Filtrar</button>
-            </form>
-            <section>
-
-                <% category.products.forEach(product => { %>
-                    <a href="/products/<%=product.id%>">
-                        <div class="product">
-                            
-                                <img src="<%=product.imagePath%>" alt="<%=product.imageDescription%>" />
-                                <h3 class="product__title"><%=product.name%></h3>
-                                <p class="product__description"><%=product.description%></p>
-                                <p class="product__price">$<%=product.price%></p>
-
-                        </div>
-                    </a>
-                <% }) %>
+            <section class="category_header">
+                <div class="content_intro">
+                    <div class="categories__intro">
+                        <h2 class="categories__title"><%=category.name%></h2>
+                        <div class="margin"></div>
+                        <p class="categories__description">
+                            <%=category.description%>
+                        </p>
+                    </div>
+                </div>
             </section>
+            <section class="category_body">
+                <div class="content">
+                    <form action="" method="" class="filter">
+                        <div class="filter__options">
+                            <p class="filter__title">Precio</p>
+                            <div class="filter__values">
+                                <div class="form-field">
+                                    <label for="min">Min</label>
+                                    <input type="number" name="min" id="min" />
+                                </div>
+                                <div class="form-field">
+                                    <label for="max">Max</label>
+                                    <input type="number" name="max" id="max" />
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary btn-xl" type="submit">Filtrar productos</button>
+                    </form>
+                    <div class="catalog">
+                        <% category.products.forEach(product => { %>
+                            <a href="/products/<%=product.id%>">
+                                <div class="product">
+                                    <img src="<%=product.imagePath%>" alt="<%=product.imageDescription%>" />
+                                    <div class="product__detail">
+                                        <h3 class="product__title"><%=product.name%></h3>
+                                        <p class="product__description"><%=product.description%></p>
+                                        <p class="product__price">$<%=product.price%></p>
+                                    </div>
+                                </div>
+                            </a>
+                        <% }) %>
+                    </div>
+                </div>
+            </section>
+            
+            
         </main>
 <%- include('partials/footer'); %>

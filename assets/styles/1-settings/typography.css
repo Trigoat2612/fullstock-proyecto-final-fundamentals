@@ -8,6 +8,7 @@
   --font-size-4-5: 18px;
   --font-size-5: 20px;
   --font-size-6: 24px;
+  --font-size-9: 36px;
 
   --font-size-sm: 14px;
   --display-1-font-size: 60px;
@@ -16,6 +17,7 @@
   --leading-5: 20px;
   --leading-6: 24px;
   --leading-7: 28px;
+  --leading-10: 40px;
   --font-line-height-5: 20px;
   --display-1-leading: 60px;
   
@@ -37,4 +39,5 @@
   --font-weight-medium: 500;
   --font-weight-normal: 400;
   --font-weight-bold: 700;
+  --font-weight-regular: 400;
 }

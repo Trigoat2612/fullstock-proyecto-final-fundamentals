@@ -1,11 +1,16 @@
 :root {
+  --space-2: 8px;
   --space-3: 12px;
   --space-4: 16px;
   --space-6: 24px;
   --space-8: 32px;
+  --space-16: 64px;
   --container-padding: 32px;
   --section-sm-padding: 64px;
+  --section-xs-padding: 48px;
+  --section-padding: 96px;
   --font-letter-spacing-normal: 0px;
   --hero-padding: 256px;
   --rounded-2: 8px;
+  --spacing-4: 16px;
 }

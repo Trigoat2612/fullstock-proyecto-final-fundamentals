@@ -15,36 +15,38 @@
         </section>
         <!-- BEM: Bloque, Elementos, Modificador -->
         <section class="categories container">
-            <div class="categories__intro">
-                <h2 class="categories__title">Compra por categoría</h2>
-                <p class="categories__description">
-                    Explora nuestra selección de productos especialmente diseñados para
-                    desarrolladores web. Encuentra lo que buscas navegando por nuestras
-                    categorías de polos, tazas, stickers y más.
-                </p>
-            </div>
-            <div class="categories__content">
-            <% categories.forEach((category) => { %>
-                <a href="/categories/<%= category.id %>">
-                    <div class="category">
-                
-                    <img
-                        class="category__image"
-                        src="<%= category.imagePath %>"
-                        alt="Una persona modelando un polo azul"
-                    />
-                    <h3 class="category__title"><%= category.name %></h3>
-                    <p class="category__description">
-                        <%= category.description %>
-                        lucir. Ideales para llevar el código a donde vayas.
+            <div class="content">
+                <div class="categories__intro">
+                    <h2 class="categories__title">Compra por categoría</h2>
+                    <div class="margin"></div>
+                    <p class="categories__description">
+                        Explora nuestra selección de productos especialmente diseñados para
+                        desarrolladores web. Encuentra lo que buscas navegando por nuestras
+                        categorías de polos, tazas, stickers y más.
                     </p>
-                    </div>
-                </a>
-                
-            <% }) %>
-            
-            
+                </div>
+                <div class="margin"></div>
+                <div class="categories__content">
+                <% categories.forEach((category) => { %>
+                    <a href="/categories/<%= category.id %>">
+                        <div class="category">
+                    
+                        <img
+                            class="category__image"
+                            src="<%= category.imagePath %>"
+                            alt="Una persona modelando un polo azul"
+                        />
+                        <h3 class="category__title"><%= category.name %></h3>
+                        <p class="category__description">
+                            <%= category.description %>
+                            lucir. Ideales para llevar el código a donde vayas.
+                        </p>
+                        </div>
+                    </a>
+                <% }) %>
+                </div>
             </div>
+            
         </section>
         
     </main>
