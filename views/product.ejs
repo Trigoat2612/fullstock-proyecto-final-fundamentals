@@ -1,17 +1,26 @@
 <%- include('partials/header'); %>
     <main>
-        <section class="product-detail container">
-            <div class="product-detail__image">
-                <img src="<%= product.imagePath %>" alt="<%= product.imageDescription %>">
-            </div>
-            <div class="product-detail__info">
-                <h2 class="product-detail__title"><%= product.name %></h2>
-                <p class="product-detail__description"><%= product.description %></p>
-                <p class="product-detail__price">$<%= product.price %></p>
-                <form action="/cart/add/<%= product.id %>" method="post">
-                    <button class="product-detail__add-to-cart">Agregar al carrito</button>
-                </form>
-                
+        <section class="product-detail">
+            <div class="content">
+                <div class="product-detail__image">
+                    <img src="<%= product.imagePath %>" alt="<%= product.imageDescription %>">
+                </div>
+                <div class="product-detail__info">
+                    <h2 class="product-detail__title"><%= product.name %></h2>
+                    <p class="product-detail__price">$<%= product.price %></p>
+                    <p class="product-detail__description"><%= product.description %></p>
+                    <form action="/cart/add/<%= product.id %>" method="post">
+                        <button class="btn btn-primary btn-xl product-detail__add-to-cart">Agregar al carrito</button>
+                    </form>
+                    <div class="vector"></div>
+                    <h3 class="product-detail__features">Características</h3>
+                    <ul class="product-detail__features-list">
+                        <li>Estampado resistente que mantiene sus colores vibrantes lavado tras lavado.</li>
+                        <li>Hecho de algodón suave que asegura comodidad y frescura.  </li>
+                        <li>Costuras reforzadas para una mayor durabilidad.</li>
+                        <li>Corte moderno que se adapta perfectamente al cuerpo.</li>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>

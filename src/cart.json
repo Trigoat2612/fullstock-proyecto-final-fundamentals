@@ -1,1 +1,26 @@
-{}
+[
+  {
+    "id": 1,
+    "name": "Polo React",
+    "description": "Viste tu pasión por React con estilo y comodidad en cada línea de código.",
+    "price": 20,
+    "imagePath": "/images/camiseta1.png",
+    "imageDescription": "Polo con el logo de React"
+  },
+  {
+    "id": 2,
+    "name": "Polo Javascript",
+    "description": "Deja que tu amor por JavaScript hable a través de cada hilo de este polo.",
+    "price": 20,
+    "imagePath": "/images/camiseta2.png",
+    "imageDescription": "Polo con el logo de JavaScript"
+  },
+  {
+    "id": 16,
+    "name": "Sticker JavaScript",
+    "description": "Sticker con el logo de JavaScript.",
+    "price": 5,
+    "imagePath": "/images/sticker1.png",
+    "imageDescription": "Sticker con el logo de JavaScript"
+  }
+]

@@ -1,7 +1,7 @@
 import express from "express";
 import path from "path";
 import { fileURLToPath } from "node:url";
-import { readFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 
 const app = express();
 const port = 3000;
