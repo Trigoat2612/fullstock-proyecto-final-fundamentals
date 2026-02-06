@@ -4,8 +4,11 @@
 }
 
 .product > img {
-    aspect-ratio: 2/2;
-    object-fit: cover;
+    /* Proporción */
+    aspect-ratio: 3 / 4;
+
+    /* Escala */
+    object-fit: contain;          /* Adaptar */
     background: var(--muted-background, #00005506);
 }
 

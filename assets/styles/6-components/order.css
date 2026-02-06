@@ -1,0 +1,96 @@
+.order {
+    display: flex;
+    flex-direction: row;                 /* Flujo: Horizontal */
+    justify-content: center;
+    width: 100%;
+
+    padding-top: var(--section-sm-padding);
+    padding-bottom: var(--section-sm-padding);
+
+    background-color: #FFFFFF;           /* background */
+}
+
+.order > .content {
+    display: flex;
+    flex-direction: column;              /* Flujo: Vertical */
+
+    width: 100%;
+    max-width: var(--width-7xl);
+
+    height: 200px;
+
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+
+}
+
+.order_title {
+     /* Tipografía (text-base/semibold) */
+    font-family: var(--font-family-text);
+    font-weight: var(--font-weight-semibold); /* o 600 */
+    font-style: normal;
+    font-size: var(--font-size-4);
+    line-height: var(--leading-6);
+    letter-spacing: 0px;
+
+    /* Color */
+    color: var(--accent-foreground, #5753C6);
+}
+
+.order_status {
+    /* Tipografía (text-4xl/bold) */
+    font-family: var(--font-family-text);
+    font-weight: var(--font-weight-bold); /* o 700 */
+    font-style: normal;
+    font-size: var(--font-size-9);
+    line-height: var(--leading-10);
+    letter-spacing: 0px;
+
+    /* Color */
+    color: var(--foreground, #1C2024);
+}
+
+.disclaimer {
+     /* Tipografía (text-base/regular) */
+    font-family: var(--font-family-text);
+    font-weight: var(--font-weight-regular); /* o 400 */
+    font-style: normal;
+    font-size: var(--font-size-4);
+    line-height: var(--leading-6);
+    letter-spacing: 0px;
+
+    /* Color */
+    color: var(--muted-foreground, #60646C);
+}
+
+.label{
+    /* Tipografía (text-sm/medium) */
+    font-family: var(--font-family-text);
+    font-weight: var(--font-weight-medium); /* o 500 */
+    font-style: normal;
+    font-size: var(--font-size-3-5);
+    line-height: var(--leading-5);
+    letter-spacing: 0px;
+
+    /* Color */
+    color: var(--foreground, #1C2024);
+}
+
+.nro_order{
+    /* Tipografía (text-sm/medium) */
+    font-family: var(--font-family-text);
+    font-weight: var(--font-weight-medium); /* o 500 */
+    font-style: normal;
+    font-size: var(--font-size-3-5);
+    line-height: var(--leading-5);
+    letter-spacing: 0px;
+
+    /* Color */
+    color: var(--accent-foreground, #5753C6);
+}
+
+.order >.content> .margin {
+    width: 100%;
+    max-width: 1216px;
+    height: var(--space-12);
+}

@@ -1,0 +1,87 @@
+<%- include('partials/header'); %>
+    <main>
+        <section class="checkout">
+            <form action="/order" method="post" class="content">
+                <div class="info_contact">
+                    <h2 class="info_contact__title">Información de contacto</h2>
+                    <div class="checkout_form_field">
+                        <label for="email">Correo electrónico</label>
+                        <input type="text" name="email" id="email" required />
+                    </div>
+                    <div class="vector"></div>
+                    <h2 class="info_contact__title">Información de envío</h2>
+                    <div class="form_body">
+                        <div class="checkout_row">
+                            <div class="checkout_form_field">
+                                <label for="name">Nombre</label>
+                                <input type="text" name="name" id="name" required />
+                            </div>
+                            <div class="checkout_form_field">
+                                <label for="lastname">Apellido</label>
+                                <input type="text" name="lastname" id="lastname" required />
+                            </div>
+                        </div>
+                        <div class="checkout_form_field">
+                            <label for="company">Compañia</label>
+                            <input type="text" name="company" id="company" required />
+                        </div>
+                        <div class="checkout_form_field">
+                            <label for="address">Dirección</label>
+                            <input type="text" name="address" id="address" required />
+                        </div>
+                        <div class="checkout_row">
+                            <div class="checkout_form_field">
+                                <label for="city">Ciudad</label>
+                                <input type="text" name="city" id="city" required />
+                            </div>
+                            <div class="checkout_form_field">
+                                <label for="country">País</label>
+                                <input type="text" name="country" id="country" required />
+                            </div>
+                        </div>
+                        <div class="checkout_row">
+                            <div class="checkout_form_field">
+                                <label for="state">Provincia/Estado</label>
+                                <input type="text" name="state" id="state" required />
+                            </div>
+                            <div class="checkout_form_field">
+                                <label for="zip">Codigo postal</label>
+                                <input type="text" name="zip" id="zip" required />
+                            </div>
+                        </div>
+                        <div class="checkout_form_field">
+                            <label for="phone">Teléfono</label>
+                            <input type="text" name="phone" id="phone" required />
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-xl check" type="submit">Confirmar Orden</button>
+                </div>
+                <div class="info_cart">
+                    <h2 class="info_summary__title">Resumen de la orden</h2>
+                    <div class="summary_detail">
+                        <% cart.forEach(product => { %>
+                            <div class="summary_item">
+                                <img src="<%=product.imagePath%>" alt="<%=product.imageDescription%>" class="summary__img">
+                                <div class="summary__item_info">
+                                    <p class="summary__item_name"><%= product.name %></p>
+                                    <div class="summary__item_quantity">
+                                        <p class="summary__item_count">1 </p>
+                                        <span class="summary__item_cross"><img src="/images/x.svg"></span>
+                                        <p class="summary__item_price">$<%= product.price %></p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="summary__vector"></div>
+                        <% }) %>
+                        <div class="cart_summary">
+                            <p class="cart__summary_label">Total: </p>
+                            <p class="cart__summary_total">$<%= total %></p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </form>
+        </section>
+    </main>
+<%- include('partials/footer'); %>

@@ -22,5 +22,21 @@
     "price": 5,
     "imagePath": "/images/sticker1.png",
     "imageDescription": "Sticker con el logo de JavaScript"
+  },
+  {
+    "id": 5,
+    "name": "Polo Backend Developer",
+    "description": "Domina el servidor con estilo: viste con orgullo tu título de Backend Developer.",
+    "price": 25,
+    "imagePath": "/images/camiseta5.png",
+    "imageDescription": "Polo con el logo de Backend Developer"
+  },
+  {
+    "id": 14,
+    "name": "Taza Linux",
+    "description": "Taza con el logo de Linux.",
+    "price": 20,
+    "imagePath": "/images/taza5.png",
+    "imageDescription": "Taza con el logo de Linux"
   }
 ]

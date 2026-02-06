@@ -1,0 +1,45 @@
+<%- include('partials/header'); %>
+<main>
+    <section class="cart">
+        <div class="content">
+            <div class="cart_body">
+                <h2 class="cart__title">Carrito de compras</h2>
+                <div class="margin"></div>
+                <div class="cart__description">
+                    <% cart.forEach(product => { %>
+                        <div class="cart_item">
+                            <input type="hidden" name="productId" value="<%= product.id %>">
+                            <img src="<%=product.imagePath%>" alt="<%=product.imageDescription%>" class="cart__img">
+                            <div class="cart__item_info">
+                                <div class="cart__item_header">
+                                    <p class="cart__item_name"><%= product.name %></p>
+                                    <button class="cart__item_remove"><img src="/images/trash.svg" alt="Eliminar producto"></button>
+                                </div>
+                                <div class="cart__item_body">
+                                    <p class="cart__item_price">$<%= product.price %></p>
+                                    <div class="cart__item_quantity">
+                                        <button class="cart__item_decrease"><img src="/images/minus.svg"></button>
+                                        <input id="cant" class="cart__item_count" type="text" value="1" readonly />
+                                        <button class="cart__item_increase"><img src="/images/plus.svg"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vector"></div>
+                    <% }) %>
+                    <div class="cart_summary">
+                        <p class="cart__summary_label">Total: </p>
+                        <p class="cart__summary_total">$<%= total %></p>
+                    </div>
+                    <div class="vector"></div>
+                    <div class="cart_action">
+                        <form action="/checkout" method="get">
+                            <button class="btn btn-primary btn-xl buy">Continuar compra</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<%- include('partials/footer'); %>
