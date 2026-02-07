@@ -24,9 +24,13 @@
 }
 
 .hero > .container > .content {
-    width: 768px;
+    width: 100%;
     height: 272px;
     max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero > .container > .content > h2 {
@@ -58,4 +62,15 @@
 .hero > .container > .content > .margin2 {
     width: 768px;
     height: 32px;
+}
+
+.hero > .container > .content > a {
+    text-decoration: none;
+    text-align: center;
+    max-width: 175px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;     /* centra vertical */
+    justify-content: center; /* centra horizontal */
+    padding: 0 24px;
 }

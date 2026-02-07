@@ -12,7 +12,8 @@
                 "description": "Viste tu pasión por React con estilo y comodidad en cada línea de código.",
                 "price": 20,
                 "imagePath": "/images/camiseta1.png",
-                "imageDescription": "Polo con el logo de React"
+                "imageDescription": "Polo con el logo de React",
+                "quantity": 1
             },
             {
                 "id": 2,
@@ -20,7 +21,8 @@
                 "description": "Deja que tu amor por JavaScript hable a través de cada hilo de este polo.",
                 "price": 20,
                 "imagePath": "/images/camiseta2.png",
-                "imageDescription": "Polo con el logo de JavaScript"
+                "imageDescription": "Polo con el logo de JavaScript",
+                "quantity": 1
             },
             {
                 "id": 3,
@@ -28,7 +30,8 @@
                 "description": "Conéctate al estilo con este polo de Node.js, tan robusto como tu código.",
                 "price": 20,
                 "imagePath": "/images/camiseta3.png",
-                "imageDescription": "Polo con el logo de Node.js"
+                "imageDescription": "Polo con el logo de Node.js",
+                "quantity": 1
             },
             {
                 "id": 4,
@@ -36,7 +39,8 @@
                 "description": "Tipa tu estilo con precisión: lleva tu pasión por TypeScript en cada hilo.",
                 "price": 20,
                 "imagePath": "/images/camiseta4.png",
-                "imageDescription": "Polo con el logo de TypeScript"
+                "imageDescription": "Polo con el logo de TypeScript",
+                "quantity": 1
             },
             {
                 "id": 5,
@@ -44,7 +48,8 @@
                 "description": "Domina el servidor con estilo: viste con orgullo tu título de Backend Developer.",
                 "price": 25,
                 "imagePath": "/images/camiseta5.png",
-                "imageDescription": "Polo con el logo de Backend Developer"
+                "imageDescription": "Polo con el logo de Backend Developer",
+                "quantity": 1
             },
             {
                 "id": 6,
@@ -52,7 +57,8 @@
                 "description": "Construye experiencias con estilo: luce con orgullo tu polo de Frontend Developer.",
                 "price": 25,
                 "imagePath": "/images/camiseta6.png",
-                "imageDescription": "Polo con el logo de Frontend Developer"
+                "imageDescription": "Polo con el logo de Frontend Developer",
+                "quantity": 1
             },
             {
                 "id": 7,
@@ -60,7 +66,8 @@
                 "description": "Domina ambos mundos con estilo: lleva tu título de FullStack Developer en cada línea de tu look.",
                 "price": 25,
                 "imagePath": "/images/camiseta7.png",
-                "imageDescription": "Polo con el logo de Full-Stack Developer"
+                "imageDescription": "Polo con el logo de Full-Stack Developer",
+                "quantity": 1
             },
             {
                 "id": 8,
@@ -68,7 +75,8 @@
                 "description": "Cuando el bug se convierte en arte: lleva con orgullo tu polo 'It's a feature'. ",
                 "price": 15,
                 "imagePath": "/images/camiseta8.png",
-                "imageDescription": "Polo de It's A Feature"
+                "imageDescription": "Polo de It's A Feature",
+                "quantity": 1
             },
             {
                 "id": 9,
@@ -76,7 +84,8 @@
                 "description": "El clásico del desarrollador: presume tu confianza con 'It works on my machine'.",
                 "price": 15,
                 "imagePath": "/images/camiseta9.png",
-                "imageDescription": "Polo de It Works On My Machine"
+                "imageDescription": "Polo de It Works On My Machine",
+                "quantity": 1
             }
         ]
     },
@@ -93,7 +102,8 @@
                 "description": "Taza con el logo de JavaScript.",
                 "price": 20,
                 "imagePath": "/images/taza1.png",
-                "imageDescription": "Taza con el logo de JavaScript"
+                "imageDescription": "Taza con el logo de JavaScript",
+                "quantity": 1
             },
             {
                 "id": 11,
@@ -101,7 +111,8 @@
                 "description": "Taza con el logo de React.",
                 "price": 20,
                 "imagePath": "/images/taza2.png",
-                "imageDescription": "Taza con el logo de React"
+                "imageDescription": "Taza con el logo de React",
+                "quantity": 1
             },
             {
                 "id": 12,
@@ -109,7 +120,8 @@
                 "description": "Taza con el logo de In case of Fire.",
                 "price": 20,
                 "imagePath": "/images/taza3.png",
-                "imageDescription": "Taza con el logo de In case of Fire"
+                "imageDescription": "Taza con el logo de In case of Fire",
+                "quantity": 1
             },
             {
                 "id": 13,
@@ -117,7 +129,8 @@
                 "description": "Taza con el logo de I love SQL.",
                 "price": 20,
                 "imagePath": "/images/taza4.png",
-                "imageDescription": "Taza con el logo de I love SQL"
+                "imageDescription": "Taza con el logo de I love SQL",
+                "quantity": 1
             },
             {
                 "id": 14,
@@ -125,7 +138,8 @@
                 "description": "Taza con el logo de Linux.",
                 "price": 20,
                 "imagePath": "/images/taza5.png",
-                "imageDescription": "Taza con el logo de Linux"
+                "imageDescription": "Taza con el logo de Linux",
+                "quantity": 1
             },
             {
                 "id": 15,
@@ -133,7 +147,8 @@
                 "description": "Taza con el logo de GitHub.",
                 "price": 20,
                 "imagePath": "/images/taza6.png",
-                "imageDescription": "Taza con el logo de GitHub"
+                "imageDescription": "Taza con el logo de GitHub",
+                "quantity": 1
             }
         ]
     },
@@ -150,7 +165,8 @@
                 "description": "Sticker con el logo de JavaScript.",
                 "price": 5,
                 "imagePath": "/images/sticker1.png",
-                "imageDescription": "Sticker con el logo de JavaScript"
+                "imageDescription": "Sticker con el logo de JavaScript",
+                "quantity": 1
             },
             {
                 "id": 17,
@@ -158,7 +174,8 @@
                 "description": "Sticker con el logo de React.",
                 "price": 5,
                 "imagePath": "/images/sticker2.png",
-                "imageDescription": "Sticker con el logo de React"
+                "imageDescription": "Sticker con el logo de React",
+                "quantity": 1
             },
             {
                 "id": 18,
@@ -166,7 +183,8 @@
                 "description": "Sticker con el logo de Git.",
                 "price": 5,
                 "imagePath": "/images/sticker3.png",
-                "imageDescription": "Sticker con el logo de Git"
+                "imageDescription": "Sticker con el logo de Git",
+                "quantity": 1
             },
             {
                 "id": 19,
@@ -174,7 +192,8 @@
                 "description": "Sticker con el logo de Docker.",
                 "price": 5,
                 "imagePath": "/images/sticker4.png",
-                "imageDescription": "Sticker con el logo de Docker"
+                "imageDescription": "Sticker con el logo de Docker",
+                "quantity": 1
             },
             {
                 "id": 20,
@@ -182,7 +201,8 @@
                 "description": "Sticker con el logo de Linux.",
                 "price": 5,
                 "imagePath": "/images/sticker5.png",
-                "imageDescription": "Sticker con el logo de Linux"
+                "imageDescription": "Sticker con el logo de Linux",
+                "quantity": 1
             },
             {
                 "id": 21,
@@ -190,7 +210,8 @@
                 "description": "Sticker con el logo de VSCode.",
                 "price": 5,
                 "imagePath": "/images/sticker6.png",
-                "imageDescription": "Sticker con el logo de VSCode"
+                "imageDescription": "Sticker con el logo de VSCode",
+                "quantity": 1
             },
             {
                 "id": 22,
@@ -198,7 +219,8 @@
                 "description": "Sticker con el logo de GitHub.",
                 "price": 5,
                 "imagePath": "/images/sticker7.png",
-                "imageDescription": "Sticker con el logo de GitHub"
+                "imageDescription": "Sticker con el logo de GitHub",
+                "quantity": 1
             },
             {
                 "id": 23,
@@ -206,7 +228,8 @@
                 "description": "Sticker con el logo de HTML5.",
                 "price": 5,
                 "imagePath": "/images/sticker8.png",
-                "imageDescription": "Sticker con el logo de HTML5"
+                "imageDescription": "Sticker con el logo de HTML5",
+                "quantity": 1
             }
         ]
     }

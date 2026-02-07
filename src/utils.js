@@ -67,3 +67,10 @@ export async function saveOrder(content) {
         return null;
     }
 }
+
+export function getNextOrderId(orders) {
+    if (!orders.length) return 1;
+
+    const maxId = Math.max(...orders.map(o => Number(o.id) || 0));
+    return maxId + 1;
+}

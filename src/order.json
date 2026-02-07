@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": 1,
+    "createdAt": "2026-02-07T07:49:31.641Z",
+    "customer": {
+      "email": "migueltrigosoq@gmail.com",
+      "name": "Miguel",
+      "lastname": "Trigoso",
+      "company": "JNE",
+      "address": "Jr. Manuel Itúrregui 835",
+      "city": "Surquillo",
+      "country": "Perú",
+      "state": "Gobierno Regional de Lima",
+      "zip": "150835",
+      "phone": "974215918"
+    },
+    "items": [
+      {
+        "id": 1,
+        "name": "Polo React",
+        "price": 20,
+        "quantity": 1,
+        "imagePath": "/images/camiseta1.png"
+      },
+      {
+        "id": 11,
+        "name": "Taza React",
+        "price": 20,
+        "quantity": 2,
+        "imagePath": "/images/taza2.png"
+      },
+      {
+        "id": 18,
+        "name": "Sticker Git",
+        "price": 5,
+        "quantity": 1,
+        "imagePath": "/images/sticker3.png"
+      }
+    ],
+    "total": 65
+  }
+]
